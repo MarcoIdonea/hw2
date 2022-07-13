@@ -1,0 +1,56 @@
+main{
+    display: flex;
+}
+main {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 5px 0 5 px 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 100%;
+    transform:translate(-50%,-50%);
+    max-width: 100px;
+    
+}
+
+input{
+    margin-left: 0.5em;
+}
+body{
+    background-color:whitesmoke;
+}
+#login{
+    width:300px;
+    height:150px;
+    font-family:lucida console;
+}
+    form{
+        text-align: center;
+        background:cadetblue; 
+        color:black; opacity: 1.00;
+        border:none;
+        box-shadow: 0 4px 8px  rgb(0, 0, 0.1), 0 10px 20px rgb(0, 0, 0.1);
+        border-radius: 20px;
+        margin-bottom: 50px;
+        padding: 40px;
+        max-width: 400px;
+    }
+    h1{
+        text-align: center ;
+        color: black;
+       }
+       .registrati{
+           font-size:25px;
+       }
+
+       .error{
+           color: red;
+           margin-top:580px;
+           margin-left: 800px;
+           font-size: 30px;
+       }
+       #email_er, #nome_er, #password_er, #cognome_er, #conferma_password_er{
+           color:red;
+       }
